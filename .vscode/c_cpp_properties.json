@@ -4,8 +4,8 @@
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/Users/rodrigocasale/Documents/proyects/gba_dev/butano/common/**",
-                "/Users/rodrigocasale/Documents/proyects/gba_dev/butano/butano/**"
+                "/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/common/**",
+                "/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/**"
             ],
             "defines": [],
             "macFrameworkPath": [

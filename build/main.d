@@ -28,26 +28,7 @@ main.o: \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_memory_alias.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_string_view.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_vblank_callback_type.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_animate_actions.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_vector.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_vector_fwd.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_ptr.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_fixed_point.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_point.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_fixed_point_fwd.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_tiles_ptr.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_tiles_item.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_tile.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_bpp_mode.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_compression_type.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_animate_actions_fwd.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_ptr.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_span.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/games/astral-pain/build/bn_sprite_items_ball.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_item.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_shape_size.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_palette_item.h \
- /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_color.h \
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/games/astral-pain/include/title_screen.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/games/astral-pain/build/bn_music_items.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_music_item.h
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_core.h:
@@ -78,25 +59,6 @@ main.o: \
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_memory_alias.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_string_view.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_vblank_callback_type.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_animate_actions.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_vector.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_vector_fwd.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_ptr.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_fixed_point.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_point.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_fixed_point_fwd.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_tiles_ptr.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_tiles_item.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_tile.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_bpp_mode.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_compression_type.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_animate_actions_fwd.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_ptr.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_span.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/games/astral-pain/build/bn_sprite_items_ball.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_item.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_shape_size.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_sprite_palette_item.h:
-/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_color.h:
+/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/games/astral-pain/include/title_screen.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/games/astral-pain/build/bn_music_items.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_music_item.h:
