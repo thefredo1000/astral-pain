@@ -29,6 +29,7 @@ main.o: \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_string_view.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_vblank_callback_type.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/games/astral-pain/include/title_screen.h \
+ /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/games/astral-pain/include/eye_screen.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/games/astral-pain/build/bn_music_items.h \
  /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_music_item.h
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_core.h:
@@ -60,5 +61,6 @@ main.o: \
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_string_view.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_vblank_callback_type.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/games/astral-pain/include/title_screen.h:
+/Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/games/astral-pain/include/eye_screen.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/games/astral-pain/build/bn_music_items.h:
 /Users/rodrigocasale/Documents/proyects/gba_dev/butano-18.9.0/butano/include/bn_music_item.h:

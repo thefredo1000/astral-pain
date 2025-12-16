@@ -30,12 +30,12 @@ namespace Game
         ball.set_double_size_mode(bn::sprite_double_size_mode::ENABLED);
 
         static const uint16_t start[] = {7, 6, 5, 4, 3, 2, 1, 0};
-        bn::sprite_animate_action<16> action = bn::sprite_animate_action<16>::forever(
+        bn::sprite_animate_action<16> ball_action = bn::sprite_animate_action<16>::forever(
             ball, 8, bn::sprite_items::ball.tiles_item(), start);
 
         for (int i = 0; i < 64; ++i)
         {
-            action.update();
+            ball_action.update();
             bn::core::update();
         }
 
@@ -43,12 +43,12 @@ namespace Game
         static const uint16_t ball_tiles_array[] = {0, 1, 2, 1};
         bn::span<const uint16_t> ball_tiles(ball_tiles_array);
 
-        action = bn::sprite_animate_action<4>::forever(
+        ball_action = bn::sprite_animate_action<4>::forever(
             ball, 8, bn::sprite_items::ball.tiles_item(), ball_tiles);
 
         for (int i = 0; i < 700; ++i)
         {
-            action.update();
+            ball_action.update();
             bn::core::update();
         }
 
@@ -62,7 +62,7 @@ namespace Game
 
         for (int i = 0; i < 240; ++i)
         {
-            action.update();
+            ball_action.update();
             bn::core::update();
         }
 
@@ -75,45 +75,36 @@ namespace Game
 
         while (!bn::keypad::any_pressed())
         {
-            action.update();
+            ball_action.update();
             bn::core::update();
         }
 
         bn::fixed scale = 1.0;
 
-        // static const uint16_t end[] = {0, 1, 2, 3, 4, 5, 6, 7};
-        // action = bn::sprite_animate_action<16>::once(
-        //     ball, 16, bn::sprite_items::ball.tiles_item(), end);
-        while (1)
+        while (scale > 0)
         {
+            for (int i = 0; i < 10; ++i)
+            {
+                text_sprites[i].set_scale(scale);
+            }
+            for (int i = 0; i < 6; ++i)
+            {
+                text_sprites_new[i].set_scale(scale);
+            }
             scale -= 0.01;
-            if (scale > 0)
-            {
-                for (int i = 0; i < 10; ++i)
-                {
-                    text_sprites[i].set_scale(scale);
-                }
-                for (int i = 0; i < 6; ++i)
-                {
-                    text_sprites_new[i].set_scale(scale);
-                }
-            }
-            else
-            {
-                for (int i = 0; i < 10; ++i)
-                {
-                    text_sprites[i].set_visible(false);
-                }
-                for (int i = 0; i < 6; ++i)
-                {
-                    text_sprites_new[i].set_visible(false);
-                }
-            }
-            if (!action.done())
-            {
-                action.update();
-            }
+            ball_action.update();
             bn::core::update();
         }
+        for (int i = 0; i < 10; ++i)
+        {
+            text_sprites[i].set_visible(false);
+        }
+        for (int i = 0; i < 6; ++i)
+        {
+            text_sprites_new[i].set_visible(false);
+        }
+        ball.set_visible(false);
+        ball_action.update();
+        bn::core::update();
     }
 }

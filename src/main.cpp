@@ -1,6 +1,7 @@
 #include "bn_core.h"
 
 #include "title_screen.h"
+#include "eye_screen.h"
 
 #include "bn_music_items.h"
 int main()
@@ -10,6 +11,7 @@ int main()
     while (1)
     {
         Game::title_screen();
+        Game::eye_screen();
         bn::core::update();
     }
 }
